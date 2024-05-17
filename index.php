@@ -22,7 +22,7 @@
         </nav>
         <div class="content">
             <h4>Hello! My Name is</h4>
-            <h1>Afif <span>Fadilah</span></h1>
+            <h1>Afif <span>Fadilah, ST</span></h1>
             <h3>I'm a Web Developer</h3>
             <div class="news">
                 <form action="mailto:istme@apiptech.com">
