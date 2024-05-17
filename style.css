@@ -187,13 +187,14 @@ button:hover {
     min-height: 400px;
 }
 .card {
-    height: 365px;
+    height: 400px;
     width: 335px;
     padding: 20px 35px;
     background: #191919;
     border-radius: 20px;
     margin: 15px;
     position: relative;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -207,7 +208,7 @@ button:hover {
 
 h5 {
     color: #fff;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
