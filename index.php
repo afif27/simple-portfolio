@@ -63,7 +63,7 @@
                 <i class="fa-solid fa-basket-shopping"></i>
                 <h5 id="judul2">Point Of Sale</h5>
                 <div class="pra">
-                    <p>Menyediakan jasa pembuatan aplikasi point of sale untuk pengolahan bisnis anda</p>
+                    <p>Menyediakan jasa pembuatan aplikasi point of sale untuk pengolahan penjualan anda</p>
                     <p style="text-align:center;"></p>
                     <a href="#" class="button" id="myBtn" >Read More</a>
                 </div>
@@ -121,7 +121,7 @@
             <p id="judul"></p>
         </div>
         <div class="modal-body">
-            <p id="isi">Menyediakan jasa pembuatan website untuk profile peruhahaan / kantor</p>
+            <p id="isi">Menyediakan jasa pembuatan website untuk profile peruhahaan</p>
         </div>
         </div>
     </div>
