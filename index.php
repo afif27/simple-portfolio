@@ -121,7 +121,7 @@
             <p id="judul"></p>
         </div>
         <div class="modal-body">
-            <p id="isi">Menyediakan jasa pembuatan website untuk promosi bisnis anda</p>
+            <p id="isi">Menyediakan jasa pembuatan website untuk profile peruhahaan / kantor</p>
         </div>
         </div>
     </div>
