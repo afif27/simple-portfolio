@@ -61,13 +61,15 @@
                     <i class="fa-solid fa-basket-shopping text-4xl text-blue-600"></i>
                     <h5 class="text-xl font-semibold mt-2">Point Of Sale</h5>
                     <p class="mt-2">Aplikasi kasir berbasis web untuk bisnis Anda.</p>
-                    <a href="#" class="text-blue-600 font-semibold">Read More</a>
+                    <button onclick="openModal('Poin Of Sale', 'Aplikasi kasir berbasis web')"
+                    class="text-blue-600 font-semibold hover:underline">Read More</button>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
                     <i class="fa-solid fa-user-clock text-4xl text-blue-600"></i>
                     <h5 class="text-xl font-semibold mt-2">Absensi</h5>
                     <p class="mt-2">Aplikasi absensi berbasis web dengan fitur modern.</p>
-                    <a href="#" class="text-blue-600 font-semibold">Read More</a>
+                    <button onclick="openModal('Absensi', 'Aplikasi kasir berbasis web')"
+                    class="text-blue-600 font-semibold hover:underline">Read More</button>
                 </div>
             </div>
         </div>
