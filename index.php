@@ -54,7 +54,8 @@
                     <i class="fa-solid fa-shop text-4xl text-blue-600"></i>
                     <h5 class="text-xl font-semibold mt-2">Sales Page</h5>
                     <p class="mt-2">Menyediakan jasa pembuatan website untuk promosi bisnis.</p>
-                    <a href="#" class="text-blue-600 font-semibold">Read More</a>
+                    <button onclick="openModal('Sales Page', 'Website promosi bisnis anda dengan tampilan profesional dan responsive.')"
+                    class="text-blue-600 font-semibold hover:underline">Read More</button>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
                     <i class="fa-solid fa-basket-shopping text-4xl text-blue-600"></i>
