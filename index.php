@@ -23,7 +23,7 @@
                 <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="btn">Hello!!</div>
+            <div class="btn">Helloasas!!</div>
         </nav>
         <div class="content">
             <h4>Hello! My Name is</h4>
