@@ -4,26 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Afif Fadilah's Portfolio - Web Developer & Data Analyst">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-    <title>Afif Fadilah - Portfolio</title>
+    <title>Afif Fadilah - Web Developer Portfolio</title>
 </head>
 <body>
-    <header class="hero" id="home">
+    <header class="hero">
         <nav>
             <h2 class="logo">Apip<span>Tech</span></h2>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="btn">Helloasas!!</div>
+            <div class="btn">Hello!!</div>
         </nav>
         <div class="content">
             <h4>Hello! My Name is</h4>
@@ -40,67 +36,65 @@
 
     <section class="about" id="about">
         <div class="main">
-            <div class="about-img">
-                <img src="img/bg-mashead.png" alt="Profile Image">
-            </div>
+            <img src="img/bg-mashead.png" alt="Afif Fadilah" loading="lazy">
             <div class="about-text">
                 <h2>About Me</h2>
                 <h5>Web Developer <span>& Data Analyst</span></h5>
-                <p>I'm a Web Developer and Junior Data Analyst with passion for creating elegant, user-friendly websites and deriving meaningful insights from data. With expertise in various web technologies and analytical tools, I can help bring your digital vision to life.</p>
+                <p>I'm a Web Developer and Junior Data Analyst with experience in creating modern web solutions.</p>
                 <button type="button" onclick="window.location.href='mailto:istme@apiptech.com';">Let's Talk</button>
             </div>
         </div>
     </section>
 
-    <section class="service" id="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="title">
             <h2>Portfolio</h2>
         </div>
-        <div class="box">
+        <div class="portfolio-grid">
             <div class="card">
-                <i class="fa-solid fa-shop"></i>
-                <h5 class="service-title" data-id="sales">Sales Page</h5>
-                <div class="pra">
+                <i class="fa-solid fa-shop" aria-hidden="true"></i>
+                <h5>Sales Page</h5>
+                <div class="card-content">
                     <p>Menyediakan jasa pembuatan website untuk promosi bisnis anda</p>
-                    <a href="#" class="button open-modal" data-id="sales">Read More</a>
+                    <a href="#" class="button read-more" data-title="Sales Page" data-content="Professional sales pages designed to convert visitors into customers with modern designs and optimized performance.">Read More</a>
                 </div>
             </div>
             <div class="card">
-                <i class="fa-solid fa-basket-shopping"></i>
-                <h5 class="service-title" data-id="pos">Point Of Sale</h5>
-                <div class="pra">
+                <i class="fa-solid fa-basket-shopping" aria-hidden="true"></i>
+                <h5>Point Of Sale</h5>
+                <div class="card-content">
                     <p>Menyediakan jasa pembuatan aplikasi point of sale untuk pengolahan penjualan anda</p>
-                    <a href="#" class="button open-modal" data-id="pos">Read More</a>
+                    <a href="#" class="button read-more" data-title="Point Of Sale" data-content="Custom POS systems tailored to your business needs with inventory management, sales tracking, and reporting features.">Read More</a>
                 </div>
             </div>
             <div class="card">
-                <i class="fa-solid fa-people-roof"></i>
-                <h5 class="service-title" data-id="company">Company Profile</h5>
-                <div class="pra">
+                <i class="fa-solid fa-people-roof" aria-hidden="true"></i>
+                <h5>Company Profile</h5>
+                <div class="card-content">
                     <p>Menyediakan jasa pembuatan website untuk profile perusahaan anda</p>
-                    <a href="#" class="button open-modal" data-id="company">Read More</a>
+                    <a href="#" class="button read-more" data-title="Company Profile" data-content="Professional company profile websites that showcase your brand and services with responsive design and modern aesthetics.">Read More</a>
                 </div>
             </div>
             <div class="card">
-                <i class="fa-solid fa-user-clock"></i>
-                <h5 class="service-title" data-id="attendance">Absensi</h5>
-                <div class="pra">
+                <i class="fa-solid fa-user-clock" aria-hidden="true"></i>
+                <h5>Absensi</h5>
+                <div class="card-content">
                     <p>Menyediakan jasa pembuatan absensi berbasis web</p>
-                    <a href="#" class="button open-modal" data-id="attendance">Read More</a>
+                    <a href="#" class="button read-more" data-title="Absensi" data-content="Web-based attendance systems with employee tracking, reporting, and management features.">Read More</a>
                 </div>
             </div>
             <div class="card">
-                <i class="fa-solid fa-heart"></i>
-                <h5 class="service-title" data-id="wedding">Wedding Invitations</h5>
-                <div class="pra">
+                <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                <h5>Wedding Invitations</h5>
+                <div class="card-content">
                     <p>Menyediakan jasa pembuatan undangan digital dalam bentuk website</p>
-                    <a href="https://perginikahan.apiptech.com" class="button" target="_blank">Read More</a>
+                    <a href="https://perginikahan.apiptech.com" class="button" target="_blank" rel="noopener">Visit Site</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="contact-me" id="contact">
+    <section class="contact" id="contact">
         <p>Senang sekali bisa menyapa anda</p>
         <a href="mailto:istme@apiptech.com" class="button-dua">Contact Me</a>
     </section>
@@ -109,19 +103,19 @@
         <p>Afif Fadilah</p>
         <p>You can Find me On:</p>
         <div class="social">
-            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
         </div>
         <p class="end">@ApipTech</p>
     </footer>
 
-    <!-- Modal-->
-    <div id="serviceModal" class="modal">
+    <!-- Single Modal for all cards -->
+    <div id="portfolioModal" class="modal">
         <div class="modal-content">
-            <span class="close">&times;</span>
+            <span class="close" aria-label="Close modal">&times;</span>
             <div class="modal-header">
-                <p id="modalTitle"></p>
+                <h3 id="modalTitle"></h3>
             </div>
             <div class="modal-body">
                 <p id="modalContent"></p>
@@ -129,6 +123,31 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        // Modal functionality
+        const modal = document.getElementById("portfolioModal");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalContent = document.getElementById("modalContent");
+        const closeBtn = document.querySelector(".close");
+        
+        document.querySelectorAll(".read-more").forEach(button => {
+            button.addEventListener("click", function(e) {
+                e.preventDefault();
+                modalTitle.textContent = this.dataset.title;
+                modalContent.textContent = this.dataset.content;
+                modal.style.display = "block";
+            });
+        });
+        
+        closeBtn.addEventListener("click", () => {
+            modal.style.display = "none";
+        });
+        
+        window.addEventListener("click", (e) => {
+            if (e.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
