@@ -52,9 +52,9 @@
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
                     <i class="fa-solid fa-shop text-4xl text-blue-600"></i>
-                    <h5 class="text-xl font-semibold mt-2">Sales Page</h5>
+                    <h5 class="text-xl font-semibold mt-2">Company Profile Website</h5>
                     <p class="mt-2">Menyediakan jasa pembuatan website untuk promosi bisnis.</p>
-                    <button onclick="openModal('Sales Page', 'Website promosi bisnis anda dengan tampilan profesional dan responsive.')"
+                    <button onclick="openModal('Company Profile', 'Website promosi bisnis anda dengan tampilan profesional dan responsive.')"
                     class="text-blue-600 font-semibold hover:underline">Read More</button>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-md text-center">
