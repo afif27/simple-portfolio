@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <title>Afif Fadilah - Portfolio</title>
 </head>
+
 <body>
     <header class="hero" id="home">
         <nav>
@@ -128,7 +130,57 @@
             </div>
         </div>
     </div>
+    <!-- Modal -->
+    <div id="portfolioModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
 
-    <script src="script.js"></script>
+
+    <script>
+        const modalData = {
+            sales: {
+                title: 'Sales Page',
+                desc: 'Website promosi bisnis anda dengan tampilan profesional dan responsive, cocok untuk memperkenalkan produk/jasa anda secara online.'
+            },
+            pos: {
+                title: 'Point of Sale',
+                desc: 'Aplikasi kasir modern berbasis web yang membantu proses penjualan dan laporan stok barang secara realtime.'
+            },
+            company: {
+                title: 'Company Profile',
+                desc: 'Website untuk menampilkan profil perusahaan, layanan, visi misi, dan portofolio profesional untuk menarik calon klien.'
+            },
+            attendance: {
+                title: 'Absensi',
+                desc: 'Aplikasi absensi online berbasis web dengan fitur clock-in/out, laporan kehadiran, dan dashboard admin.'
+            }
+        };
+
+        const modal = document.getElementById('portfolioModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDesc = document.getElementById('modalDescription');
+        const closeBtn = document.querySelector('.close');
+
+        document.querySelectorAll('.open-modal').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const id = this.dataset.id;
+                modalTitle.innerText = modalData[id].title;
+                modalDesc.innerText = modalData[id].desc;
+                modal.style.display = 'block';
+            });
+        });
+
+        closeBtn.onclick = () => modal.style.display = 'none';
+        window.onclick = (e) => {
+            if (e.target === modal) modal.style.display = 'none';
+        };
+    </script>
+
 </body>
+
 </html>
