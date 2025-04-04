@@ -518,6 +518,7 @@ footer p:nth-child(2) {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.7);
     animation: fadeIn 0.3s;
+    
 }
 
 @keyframes fadeIn {
@@ -565,7 +566,7 @@ footer p:nth-child(2) {
 
 .modal-body p {
     text-align: left;
-    color: var(--text-muted);
+    color: var(--text-light);
     font-size: 1.1rem;
     line-height: 1.8;
     padding: 20px 0;
